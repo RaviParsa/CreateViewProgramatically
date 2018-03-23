@@ -19,7 +19,12 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentSize = CGSize(width: self.view.frame.width, height: self.view.frame.height+300)
         
         array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j","a", "b", "c", "d", "e"]
+        
+        ///
         print(array)
+
+        
+        
         
         for i in 0..<array.count {
             //let btn = UIButton(frame: CGRect(x: 5, y: 10 + 90 * i, width: 350, height: 80))
